@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="AppScene" extends="Scene">
+
+	<children>
+
+		<Router id="router" />
+		<ApiRequestManager id="ApiRequestManager" />
+	</children>
+
+    <script type="text/brightscript" uri="appScene.brs" />
+    <script type="text/brightscript" uri="pkg:/source/steg/type.brs" />
+</component>

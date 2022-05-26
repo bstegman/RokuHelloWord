@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name="HelloScreen" extends="BaseScreen">
+
+    <children>
+
+        <PageTitle
+            id="pageTitle"
+            title="Hello Brian"
+            translation="[100,100]" />
+        <SimpleLabel
+  id="testLabel"
+  fontUri = "font:MediumBoldSystemFont"
+  text = "How do I make a grid of posters?!"
+  horizOrigin = "left"
+  vertOrigin = "baseline"
+  translation="[640,360]" />
+    </children>
+
+    <script type="text/brightscript" uri="hello.brs" />
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PageTitle" extends="Group">
+
+	<interface>
+		<field id="title" type="string" onChange="onTitle" />
+	</interface>
+
+	<children>
+
+		<Label
+			id="myLabel"
+			font="font:LargeBoldSystemFont" />
+	</children>
+
+    <script type="text/brightscript" uri="pageTitle.brs" />
+</component>

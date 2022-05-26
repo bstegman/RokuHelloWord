@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name="MfaScreen" extends="BaseScreen">
+
+    <children>
+
+        <PageTitle
+            id="pageTitle"
+            title="Login"
+            translation="[100,100]" />
+
+        <LabelList
+            id="list"
+            itemSize="[440,48]" >
+
+            <!-- <ContentNode role="content" >
+                <ContentNode 
+                    id="item-1"
+                    title="Item 1" />
+                <ContentNode
+                    id="item-2"
+                    title="Item 2" />
+                <ContentNode 
+                    id="item-3"
+                    title="Item 3" />
+            </ContentNode> -->
+
+        </LabelList>
+    </children>
+
+    <script type="text/brightscript" uri="mfa.brs" />
+</component>

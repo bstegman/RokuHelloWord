@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name="HomeScreen" extends="BaseScreen">
+
+    <children>
+
+        <PageTitle
+            id="PageTitle"
+            title="Home Screen"
+            translation="[100,100]" />
+        <Poster
+  id="TestPoster"
+  uri="https://stadiumjourney.com/wp-content/uploads/2017/07/IMG_9322.jpg"
+  width="600"
+  height="300"
+  translation="[100,100]" />
+    </children>
+
+    <script type="text/brightscript" uri="home.brs" />
+</component>

@@ -1,0 +1,18 @@
+{
+	"HomeScreen":{
+		"id":"HomeScreen",
+		"persists":false
+	},
+	"LoginScreen":{
+		"id":"LoginScreen",
+		"persists":false
+	},
+	"HelloScreen":{
+		"id":"HelloScreen",
+		"persists":false
+	},
+	"MfaScreen":{
+		"id":"MfaScreen",
+		"persists":false
+	}
+}
